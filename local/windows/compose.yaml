@@ -1,0 +1,16 @@
+name: deadlock-owl-local
+services:
+  website:
+    build:
+      context: ../..
+      dockerfile: local/windows/Dockerfile
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      VITE_API_BASE_URL: https://api.deadlock-api.com
+    restart: unless-stopped
+    init: true
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"

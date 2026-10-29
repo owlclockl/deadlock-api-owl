@@ -1,0 +1,10 @@
+.git
+**/node_modules
+**/target
+**/.env
+**/.env.*
+**/.cache
+**/dist
+**/.output
+**/.wrangler
+.cargo
