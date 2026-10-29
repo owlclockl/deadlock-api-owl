@@ -71,3 +71,12 @@ See [`live-events/README.md`](live-events/README.md) for full documentation.
 ## License
 
 MIT
+
+## Windows: one-click local website
+
+Extract the Windows release ZIP and run `Запустить.bat`. Requires Docker Desktop
+(WSL2 / Linux containers) and internet; the first launch builds the dependencies.
+The local website uses the public API, without bypassing authentication or limits.
+The launcher can also open a selected game folder or launch Deadlock via Steam;
+it does not give the website unrestricted filesystem access.
+See [Windows instructions (Russian)](local/windows/README.ru.md).
