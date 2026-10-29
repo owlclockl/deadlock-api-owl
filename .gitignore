@@ -14,3 +14,6 @@ website/scripts/playground/fixtures/
 
 # Cargo workspace build output
 /target
+
+# Local distribution archives
+/dist/
