@@ -74,8 +74,9 @@ MIT
 
 ## Windows: one-click local website
 
-Extract the Windows release ZIP and run `Запустить.bat`. Requires Docker Desktop
-(WSL2 / Linux containers) and internet; the first launch builds the dependencies.
+Extract the Windows release ZIP and run `Запустить.bat`. Option 1 installs/starts Docker Desktop when needed (via winget) and prepares WSL2.
+Requires internet and Windows administrator approval for installation; a restart or
+Docker onboarding may be necessary. The first launch builds the dependencies.
 The local website uses the public API, without bypassing authentication or limits.
 The launcher can also open a selected game folder or launch Deadlock via Steam;
 it does not give the website unrestricted filesystem access.
